@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 // Signin Route
-app.post("/signin", (req, res) => {
+app.post("/", (req, res) => {
   // Always return success
   res.json({ success: true });
 });
