@@ -9,7 +9,7 @@ export default function App() {
   const handleSignin = async () => {
     try {
       // Send the username to the backend
-      const response = await axios.post("http://localhost:3000/signin", {
+      const response = await axios.post("https://globalbackend-wek6.onrender.com", {
         username,
       });
 
